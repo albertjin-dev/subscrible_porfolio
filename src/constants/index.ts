@@ -22,6 +22,9 @@ import {
   starbucks,
   tesla,
   shopify,
+  nextgen,
+  innovation_softare,
+  tech_solutins,
   threejs,
   project1,
   project2,
@@ -55,25 +58,25 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+  //{
+  //  id: "source-code",
+  //  title: "Source Code",
+  //  link: "http://www.github.com/sanidhyy/3d-portfolio/",
+  //},
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "E-Commerce Developer",
     icon: backend,
   },
   {
@@ -85,8 +88,8 @@ export const SERVICES = [
 // Technologies
 export const TECHNOLOGIES = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "shopify",
+    icon: shopify,
   },
   {
     name: "CSS 3",
@@ -135,30 +138,17 @@ export const TECHNOLOGIES = [
   {
     name: "docker",
     icon: docker,
-  },
+    },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Junior Software Developer",
+    company_name: "NextGen",
+    icon: nextgen,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2015 - December 2017",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,11 +157,11 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer",
+    company_name: "Innovation Inc",
+      icon: innovation_softare,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "January 2018 - April 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -180,11 +170,11 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Senior Software Eningeer",
+    company_name: "Tech Solutions Inc",
+    icon: tech_solutins,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -243,7 +233,7 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
+    source_code_link: "https://github.com/albertjin-dev/disney_clone",
     live_site_link: "https://clonedisneyplus.web.app/",
   },
   {
@@ -265,7 +255,7 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
+    source_code_link: "https://github.com/albertjin-dev/fitness-app",
     live_site_link: "https://fitness-gym-react.netlify.app/",
   },
   {
@@ -287,7 +277,7 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
+    source_code_link: "https://github.com/albertjin-dev/admin-dashboard",
     live_site_link: "https://shoppy-dashboard-react.netlify.app/",
   },
   {
@@ -309,7 +299,7 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
+    source_code_link: "https://github.com/albertjin-dev/tiktol-clone",
     live_site_link: "https://tiktok-clone-react.vercel.app/",
   },
   {
@@ -331,7 +321,7 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
+    source_code_link: "https://github.com/albertjin-dev/crypto-app",
     live_site_link: "https://reactjscryptoapp.netlify.app/",
   },
   {
@@ -353,7 +343,7 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
+    source_code_link: "https://github.com/albertjin-dev/travel-app",
     live_site_link: "https://travel-advisor-reactjs.netlify.app/",
   },
 ] as const;
@@ -362,21 +352,21 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://www.youtube.com/login",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/ablert-jin-980897353/",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://twitter.com/login",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/albertjin-dev",
   },
 ] as const;

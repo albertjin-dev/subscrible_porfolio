@@ -29,6 +29,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import nextgen from "./company/nextgen.png";
+import innovation_softare from "./company/innovation software.png";
+import tech_solutins from "./company/tech solutions.png"
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -73,6 +76,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  nextgen,
+  innovation_softare,
+  tech_solutins,
   project1,
   project2,
   project3,

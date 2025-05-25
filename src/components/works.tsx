@@ -53,7 +53,7 @@ const ProjectCard = ({
             />
           </div>
 
-          {/* Github */}
+           {/*Github */}
           <div
             onClick={() =>
               window.open(source_code_link, "_blank", "noreferrer")

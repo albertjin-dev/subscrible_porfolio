@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\company",
+    "\\src\\components",
+    "\\src\\constants"
+  ],
+  "SelectedNode": "\\src\\app.tsx",
+  "PreviewInSolutionExplorer": false
+}
